@@ -3,11 +3,11 @@
 // ======================================================================
 const CONFIG = {
     // Nama file model AI yang sudah kalian download dari Colab
-    modelPath: './best.onnx', 
+    modelPath: 'best.onnx', 
     
-    // GANTI INI dengan nama kelas kalian. 
+    // GANTI INI dengan nama class kalian. 
     // PERHATIAN: Urutannya HARUS SAMA PERSIS dengan urutan di Roboflow!
-    labels: ["Kelas_Satu", "Kelas_Dua"], 
+    labels: ["roti_busuk", "roti_bagus"], 
     
     // Batas keyakinan AI (0.45 = 45%). 
     // Jika AI terlalu sering salah tebak, naikkan angkanya (misal 0.60).
