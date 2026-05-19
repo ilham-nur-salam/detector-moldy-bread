@@ -7,14 +7,14 @@ const CONFIG = {
     
     // GANTI INI dengan nama class kalian. 
     // PERHATIAN: Urutannya HARUS SAMA PERSIS dengan urutan di Roboflow!
-    labels: ["roti_busuk", "roti_bagus"], 
+    labels: ["roti_bagus", "roti_busuk"], 
     
     // Batas keyakinan AI (0.6 = 60%). 
     // Jika AI terlalu sering salah tebak, naikkan angkanya (misal 0.70).
-    threshold: 0.6,
+    threshold: 0.55,
     
     // Batas untuk menghapus kotak deteksi yang menumpuk (Biarkan saja 0.4)
-    iouThreshold: 0.6
+    iouThreshold: 0.55
 };
 
 // ======================================================================
