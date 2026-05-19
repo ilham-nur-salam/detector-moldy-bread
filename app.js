@@ -9,12 +9,12 @@ const CONFIG = {
     // PERHATIAN: Urutannya HARUS SAMA PERSIS dengan urutan di Roboflow!
     labels: ["roti_busuk", "roti_bagus"], 
     
-    // Batas keyakinan AI (0.45 = 45%). 
-    // Jika AI terlalu sering salah tebak, naikkan angkanya (misal 0.60).
-    threshold: 0.45,
+    // Batas keyakinan AI (0.6 = 60%). 
+    // Jika AI terlalu sering salah tebak, naikkan angkanya (misal 0.70).
+    threshold: 0.6,
     
     // Batas untuk menghapus kotak deteksi yang menumpuk (Biarkan saja 0.4)
-    iouThreshold: 0.4
+    iouThreshold: 0.6
 };
 
 // ======================================================================
