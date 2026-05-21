@@ -42,6 +42,7 @@ The model is designed to balance:
 # 📊 Dataset
 
 The model was trained using a custom Moldy Bread Detection dataset containing multiple bread conditions such as:
+🔗 **[View the Dataset on Roboflow Here](https://app.roboflow.com/bread-king-bad/bread-quality/1)** 
 - roti_bagus(Fresh Bread)
 - roti_busuk(Moldy Bread)
 
@@ -53,6 +54,7 @@ Dataset images were annotated and exported in YOLO format.
 
 The training process was performed using a custom YOLO training workflow designed for rapid experimentation and deployment.
 
+🔗 **[Access the YOLO Trainer (Google Colab)](https://colab.research.google.com/drive/1Iv1yoEpJ1GfXf5zGnmgV4_hbMj6v6Q2o?usp=sharing)**
 ## Evaluation Metrics
 
 | Metric | Score |
